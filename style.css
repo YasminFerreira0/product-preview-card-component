@@ -6,9 +6,7 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
-.titulo, .valor {
-    font-family: 'Fraunces', serif;
-}
+
 .container {
     display: inline-flex;
 }
@@ -16,11 +14,30 @@ body {
     display: inline-block;
 }
 
+
+.titulo, .valor {
+    font-family: 'Fraunces', serif;
+}
+
+.titulo {
+    color: hsl(212, 21%, 14%);
+}
+
+p {
+    font-size: 14px;
+}
+
 .valor {
     color: hsl(158, 36%, 37%);
 }
+
+
 .botao {
     background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 0.5em;
+    padding: 10px 30px;
 }
 
 
