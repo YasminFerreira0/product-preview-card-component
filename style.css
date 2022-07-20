@@ -1,7 +1,33 @@
+/*DESKTOP*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    background-color: hsl(30, 38%, 92%);
+}
+
+.titulo, .valor {
+    font-family: 'Fraunces', serif;
+}
+.container {
+    display: inline-flex;
+}
+.imgPerfumeDesktop, .caixaTexto{
+    display: inline-block;
+}
+
+.valor {
+    color: hsl(158, 36%, 37%);
+}
+.botao {
+    background-color: hsl(158, 36%, 37%);
+}
 
 
 
-
+.imgPerfumeMobile {
+    display: none;
+}
 
 
 /*FOOTER*/
