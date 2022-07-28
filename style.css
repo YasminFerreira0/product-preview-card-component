@@ -43,12 +43,16 @@ body {
     color: hsl(212, 21%, 14%);
 }
 
+
 p {
     font-size: 14px;
 }
 
 .valor {
     color: hsl(158, 36%, 37%);
+}
+.valorRiscado {
+    text-decoration: line-through;
 }
 
 
@@ -57,7 +61,8 @@ p {
     color: hsl(0, 0%, 100%);
     border: none;
     border-radius: 0.5em;
-    padding: 10px 30px;
+    padding: 15px 50px;
+    font-weight: bold;
 }
 
 
