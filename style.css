@@ -1,5 +1,3 @@
-/*DESKTOP*/
-
 body {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
@@ -7,28 +5,28 @@ body {
 }
 
 .container {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
-    margin: 6% 25%;
-    border-radius: 1em;
+    border-radius: 20px;
+    width: 90vw;
 }
 
-.imgPerfumeDesktop, .caixaTexto{
-    display: inline-block;   
-}
+.imgPerfume {
+    background-image: url(../product-preview-card-component/images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90vw;
+    height: 60vw;
 
-.imgPerfumeDesktop {
-    width: 50%;
 }
 
 .caixaTexto {
-    width: 40%;
-}
-
-.imgDesktop {
-    width: 90%;
-    border-bottom-left-radius: 1em;
-    border-top-left-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    width: 90vw;
 }
 
 .titulo, .valor {
@@ -40,31 +38,34 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 0.9em;
+    line-height: 20px;
 }
 
-.valor, .valorRiscado {
-    display: inline-flex;
+.valores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .valor {
     color: hsl(158, 36%, 37%);
-    font-size: 40px;
+    font-size: 2.5em;
+    margin: 0;
 }
 
 .valorRiscado {
     text-decoration: line-through;
-    font-size: 13px;
+    font-size: 0.9em;
+    justify-items: center;
+
 }
 
 .botao {
-    display: block;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     border: none;
-    border-radius: 0.5em;
-    padding: 15px 75px;
+    border-radius: 10px;
+    padding: 15px 50px;
     font-weight: bold;
     margin-top: 8%;
 }
@@ -73,9 +74,6 @@ p {
     background-color: hsl(158, 77%, 12%);
 }
 
-.imgPerfumeMobile {
-    display: none;
-}
 
 /*FOOTER*/
 .attribution { 
@@ -85,9 +83,3 @@ p {
     bottom: 0;    
 }
 
-
-
-/*MOBILE*/
-@media only screen and (max-width:){
-    
-}
